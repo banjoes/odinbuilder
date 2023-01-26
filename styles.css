@@ -1,0 +1,181 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+   background-color: #1F2937;
+   color: white;
+   font-weight: bold;
+   display: flex;
+   justify-content: space-between;
+   align-items:baseline;
+   padding: 0px 72px;
+}
+
+.headerright {
+   font-weight: 100;
+   display: flex;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+ul {
+   list-style: none;
+   flex: initial;
+}
+
+li {
+   display: inline;
+   padding: 0px 8px;
+}
+
+.topsect {
+   background-color: #1F2937;
+   color: white;
+   font-weight:900;
+   display: flex;
+   justify-content: space-between;
+   align-items:baseline;
+   padding: 100px 72px;
+   align-items: center;
+}
+
+.block1 h1 {
+   margin: 4px;
+}
+
+.block1 {
+   flex: 1;
+   padding-right: 16px;
+}
+
+.block1 span {
+   font-weight: 100;
+   font-size: 18px;
+   color: #E5E7EB
+   
+}
+
+.block1 button {
+   display: block;
+   margin-top: 8px;
+   background-color: #3882F6;
+   padding: 4px 16px;
+   border: 2px solid white;
+   border-radius: 8px
+
+}
+
+img {
+   flex: 1;
+   width: 200px;
+   object-fit: cover;
+   border-radius: 8px;  
+   margin-left: 16px;
+   border: 4px solid #3882F6;
+}
+
+
+.mainsect {
+   margin-top: 36px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.mainsect h2 {
+   text-align: center;
+   margin: 36px;
+}
+
+.mainboxes {
+   flex: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 36px;
+   /* flex-wrap: wrap; */
+}
+
+.subbox {
+   flex: 0 1 100%;
+   font-size: 10px;
+}
+
+.mainboxes img {
+   min-height: 100px;
+   max-height: 100px;
+   max-width: 100px;
+   min-width: 100px; 
+   /* border-radius: 100px;
+   border-color: black; */
+}
+
+.mainboxes p {
+   margin-left: 16px;
+   display: block;
+   max-width: 100px;
+   text-align: center;
+}
+
+.quote {
+   display: flex;
+   flex-direction: column;
+   background-color: #E5E7EB;
+   padding: 72px 128px;
+   margin: 72px 0px 56px 0px;
+   color: #1F2937;
+   font-style: italic;
+   font-weight: lighter;
+}
+
+.quote span {
+   font-style: normal;
+   font-weight: bold;
+   align-self: flex-end;
+}
+
+.footerbox {
+   background-color: #3882F6;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0px 72px;
+   padding: 16px 48px;
+   color: white;
+   font-size: 12px;
+   border-radius: 4px;
+   gap: 16px;
+
+}
+
+.footerbox .wootnoot{
+   flex: none;
+
+}
+
+.footerbox h3 {
+   margin: 10px 0px -4px 0px;
+}
+
+.footerbox p {
+   font-size: 8px;
+}
+
+.footerbox button {
+   flex: none;
+   height: 24px;
+   width: 72px;
+   color: white;
+   background-color: #3882F6;
+   border-color: white;
+   border-style: double;
+   border-radius: 4px;
+   font-size: 8px;
+   flex-wrap: nowrap;
+   /* flex: initial */
+   
+}
